@@ -1,0 +1,27 @@
+.carousel-item-castom{
+    min-height: auto;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+}
+.carousel-item-castom::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #222;
+    opacity: 0.5;
+}
+.carousel-caption-castom{
+    padding: 0 0 5% 0;
+}
+.carousel-caption h1{
+    font-size: 5em;
+    font-weight: 600;
+}
+.carousel-caption p{
+    font-size: 1.25em;
+    font-weight: 600;
+}
