@@ -28,3 +28,10 @@
 .height-join-registration{
     height: 300px;
 }
+
+/* footer */
+.f-color{
+    background-color: #161616;
+    height: 300px;
+    color: #ffffff;
+}
